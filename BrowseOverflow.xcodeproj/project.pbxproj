@@ -19,6 +19,15 @@
 		9CF281571B5458D9006C0683 /* TopicTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CF281561B5458D9006C0683 /* TopicTests.swift */; };
 		9CF281591B545944006C0683 /* Topic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CF281581B545944006C0683 /* Topic.swift */; };
 		9CF2815A1B545944006C0683 /* Topic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CF281581B545944006C0683 /* Topic.swift */; };
+		DDC840F91B559532002E49B8 /* QuestionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDC840F81B559532002E49B8 /* QuestionTests.swift */; };
+		DDC840FB1B559599002E49B8 /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDC840FA1B559599002E49B8 /* Question.swift */; };
+		DDC840FC1B55959D002E49B8 /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDC840FA1B559599002E49B8 /* Question.swift */; };
+		DDC840FE1B5598CF002E49B8 /* PersonTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDC840FD1B5598CF002E49B8 /* PersonTests.swift */; };
+		DDC841001B55998B002E49B8 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDC840FF1B55998B002E49B8 /* Person.swift */; };
+		DDC841011B55998B002E49B8 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDC840FF1B55998B002E49B8 /* Person.swift */; };
+		DDC841031B55B310002E49B8 /* AnswerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDC841021B55B310002E49B8 /* AnswerTests.swift */; };
+		DDC841051B55B6D7002E49B8 /* Answer.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDC841041B55B6D7002E49B8 /* Answer.swift */; };
+		DDC841061B55B6D7002E49B8 /* Answer.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDC841041B55B6D7002E49B8 /* Answer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +65,12 @@
 		9CF281481B5457BF006C0683 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9CF281561B5458D9006C0683 /* TopicTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TopicTests.swift; sourceTree = "<group>"; };
 		9CF281581B545944006C0683 /* Topic.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Topic.swift; sourceTree = "<group>"; };
+		DDC840F81B559532002E49B8 /* QuestionTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuestionTests.swift; sourceTree = "<group>"; };
+		DDC840FA1B559599002E49B8 /* Question.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
+		DDC840FD1B5598CF002E49B8 /* PersonTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PersonTests.swift; sourceTree = "<group>"; };
+		DDC840FF1B55998B002E49B8 /* Person.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
+		DDC841021B55B310002E49B8 /* AnswerTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnswerTests.swift; sourceTree = "<group>"; };
+		DDC841041B55B6D7002E49B8 /* Answer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Answer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +125,9 @@
 				9CF281261B5457BF006C0683 /* MasterViewController.swift */,
 				9CF281281B5457BF006C0683 /* DetailViewController.swift */,
 				9CF281581B545944006C0683 /* Topic.swift */,
+				DDC840FA1B559599002E49B8 /* Question.swift */,
+				DDC840FF1B55998B002E49B8 /* Person.swift */,
+				DDC841041B55B6D7002E49B8 /* Answer.swift */,
 				9CF2812A1B5457BF006C0683 /* Main.storyboard */,
 				9CF2812D1B5457BF006C0683 /* Assets.xcassets */,
 				9CF2812F1B5457BF006C0683 /* LaunchScreen.storyboard */,
@@ -123,7 +141,10 @@
 			isa = PBXGroup;
 			children = (
 				9CF2813B1B5457BF006C0683 /* BrowseOverflowTests.swift */,
+				DDC840FD1B5598CF002E49B8 /* PersonTests.swift */,
 				9CF281561B5458D9006C0683 /* TopicTests.swift */,
+				DDC841021B55B310002E49B8 /* AnswerTests.swift */,
+				DDC840F81B559532002E49B8 /* QuestionTests.swift */,
 				9CF2813D1B5457BF006C0683 /* Info.plist */,
 			);
 			path = BrowseOverflowTests;
@@ -271,8 +292,11 @@
 				9CF281221B5457BF006C0683 /* AppDelegate.swift in Sources */,
 				9CF281591B545944006C0683 /* Topic.swift in Sources */,
 				9CF281251B5457BF006C0683 /* BrowseOverflow.xcdatamodeld in Sources */,
+				DDC840FB1B559599002E49B8 /* Question.swift in Sources */,
+				DDC841001B55998B002E49B8 /* Person.swift in Sources */,
 				9CF281271B5457BF006C0683 /* MasterViewController.swift in Sources */,
 				9CF281291B5457BF006C0683 /* DetailViewController.swift in Sources */,
+				DDC841051B55B6D7002E49B8 /* Answer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,9 +304,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DDC840FC1B55959D002E49B8 /* Question.swift in Sources */,
 				9CF2813C1B5457BF006C0683 /* BrowseOverflowTests.swift in Sources */,
+				DDC840F91B559532002E49B8 /* QuestionTests.swift in Sources */,
+				DDC841061B55B6D7002E49B8 /* Answer.swift in Sources */,
 				9CF2815A1B545944006C0683 /* Topic.swift in Sources */,
+				DDC841011B55998B002E49B8 /* Person.swift in Sources */,
+				DDC840FE1B5598CF002E49B8 /* PersonTests.swift in Sources */,
 				9CF281571B5458D9006C0683 /* TopicTests.swift in Sources */,
+				DDC841031B55B310002E49B8 /* AnswerTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -499,6 +529,7 @@
 				9CF2814D1B5457BF006C0683 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9CF2814E1B5457BF006C0683 /* Build configuration list for PBXNativeTarget "BrowseOverflowTests" */ = {
 			isa = XCConfigurationList;
@@ -507,6 +538,7 @@
 				9CF281501B5457BF006C0683 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9CF281511B5457BF006C0683 /* Build configuration list for PBXNativeTarget "BrowseOverflowUITests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +547,7 @@
 				9CF281531B5457BF006C0683 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
