@@ -16,6 +16,9 @@
 		9CF281311B5457BF006C0683 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9CF2812F1B5457BF006C0683 /* LaunchScreen.storyboard */; };
 		9CF2813C1B5457BF006C0683 /* BrowseOverflowTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CF2813B1B5457BF006C0683 /* BrowseOverflowTests.swift */; };
 		9CF281471B5457BF006C0683 /* BrowseOverflowUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CF281461B5457BF006C0683 /* BrowseOverflowUITests.swift */; };
+		9CF281571B5458D9006C0683 /* TopicTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CF281561B5458D9006C0683 /* TopicTests.swift */; };
+		9CF281591B545944006C0683 /* Topic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CF281581B545944006C0683 /* Topic.swift */; };
+		9CF2815A1B545944006C0683 /* Topic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CF281581B545944006C0683 /* Topic.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +54,8 @@
 		9CF281421B5457BF006C0683 /* BrowseOverflowUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BrowseOverflowUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9CF281461B5457BF006C0683 /* BrowseOverflowUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrowseOverflowUITests.swift; sourceTree = "<group>"; };
 		9CF281481B5457BF006C0683 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9CF281561B5458D9006C0683 /* TopicTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TopicTests.swift; sourceTree = "<group>"; };
+		9CF281581B545944006C0683 /* Topic.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Topic.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +109,7 @@
 				9CF281211B5457BF006C0683 /* AppDelegate.swift */,
 				9CF281261B5457BF006C0683 /* MasterViewController.swift */,
 				9CF281281B5457BF006C0683 /* DetailViewController.swift */,
+				9CF281581B545944006C0683 /* Topic.swift */,
 				9CF2812A1B5457BF006C0683 /* Main.storyboard */,
 				9CF2812D1B5457BF006C0683 /* Assets.xcassets */,
 				9CF2812F1B5457BF006C0683 /* LaunchScreen.storyboard */,
@@ -117,6 +123,7 @@
 			isa = PBXGroup;
 			children = (
 				9CF2813B1B5457BF006C0683 /* BrowseOverflowTests.swift */,
+				9CF281561B5458D9006C0683 /* TopicTests.swift */,
 				9CF2813D1B5457BF006C0683 /* Info.plist */,
 			);
 			path = BrowseOverflowTests;
@@ -262,6 +269,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9CF281221B5457BF006C0683 /* AppDelegate.swift in Sources */,
+				9CF281591B545944006C0683 /* Topic.swift in Sources */,
 				9CF281251B5457BF006C0683 /* BrowseOverflow.xcdatamodeld in Sources */,
 				9CF281271B5457BF006C0683 /* MasterViewController.swift in Sources */,
 				9CF281291B5457BF006C0683 /* DetailViewController.swift in Sources */,
@@ -273,6 +281,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				9CF2813C1B5457BF006C0683 /* BrowseOverflowTests.swift in Sources */,
+				9CF2815A1B545944006C0683 /* Topic.swift in Sources */,
+				9CF281571B5458D9006C0683 /* TopicTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
