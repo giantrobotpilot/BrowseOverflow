@@ -8,9 +8,25 @@
 
 import UIKit
 
-class Answer: NSObject {
+class Answer: NSObject, Comparable {
     var text: String = ""
     var score = 0
     var person = Person(name: "", avatarLocation: "")
     var accepted = false
+}
+
+func <=(lhs: Answer, rhs: Answer) -> Bool {
+    return lhs.score <= rhs.score
+}
+
+func >(lhs: Answer, rhs: Answer) -> Bool {
+    return lhs.score > rhs.score
+}
+
+func >=(lhs: Answer, rhs: Answer) -> Bool {
+    return lhs.score >= rhs.score
+}
+
+func <(lhs: Answer, rhs: Answer) -> Bool {
+    return lhs.score < rhs.score
 }
