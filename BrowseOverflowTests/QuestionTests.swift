@@ -11,13 +11,28 @@ import XCTest
 class QuestionTests: XCTestCase {
     
     let question = Question()
+    let lowScore = Answer()
+    let highScore = Answer()
     
     override func setUp() {
         super.setUp()
         question.date = NSDate.distantPast()
         question.title = "Do iPhones also dream of electric sheep?"
         question.score = 42
+        
+        let accepted = Answer()
+        accepted.score = 1
+        accepted.accepted = true
+        question.addAnswer(accepted)
+        
+        lowScore.score = -4
+        question.addAnswer(lowScore)
+        
+        highScore.score = 4
+        question.addAnswer(highScore)
     }
+    
+    // MARK: - Question
     
     func testQuestionHasADate() {
         let testDate = NSDate.distantPast()
@@ -41,5 +56,22 @@ class QuestionTests: XCTestCase {
         else {
             XCTFail("title should not be nil")
         }
+    }
+    
+    //MARK: - Adding answers
+    
+    func testQuestionCanHaveAnswersAdded() {
+        
+    }
+    
+    func testAcceptedAnswerIsFirst() {
+        XCTAssertTrue(question.answers[0].accepted == true)
+    }
+    
+    func testHighScoreAnswerBeforeLow() {
+        let answers: NSArray = question.answers
+        let highIndex = answers.indexOfObject(highScore)
+        let lowIndex = answers.indexOfObject(lowScore)
+        XCTAssertTrue(highIndex < lowIndex)
     }
 }
