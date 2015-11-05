@@ -19,6 +19,13 @@
 		9CF281571B5458D9006C0683 /* TopicTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CF281561B5458D9006C0683 /* TopicTests.swift */; };
 		9CF281591B545944006C0683 /* Topic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CF281581B545944006C0683 /* Topic.swift */; };
 		9CF2815A1B545944006C0683 /* Topic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CF281581B545944006C0683 /* Topic.swift */; };
+		DD818E701BEBCB370094FA32 /* QuestionCreationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DD818E6F1BEBCB370094FA32 /* QuestionCreationTests.m */; };
+		DD818E741BEBCC690094FA32 /* StackOverflowManager.m in Sources */ = {isa = PBXBuildFile; fileRef = DD818E731BEBCC690094FA32 /* StackOverflowManager.m */; };
+		DD818E751BEBCC690094FA32 /* StackOverflowManager.m in Sources */ = {isa = PBXBuildFile; fileRef = DD818E731BEBCC690094FA32 /* StackOverflowManager.m */; };
+		DD818E791BEBCD510094FA32 /* MockStackOverflowManagerDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DD818E781BEBCD510094FA32 /* MockStackOverflowManagerDelegate.m */; };
+		DD818E7E1BEBD3F80094FA32 /* MockStackOverflowCommunicator.m in Sources */ = {isa = PBXBuildFile; fileRef = DD818E7D1BEBD3F80094FA32 /* MockStackOverflowCommunicator.m */; };
+		DD818E811BEBD4060094FA32 /* StackOverflowCommunicator.m in Sources */ = {isa = PBXBuildFile; fileRef = DD818E801BEBD4060094FA32 /* StackOverflowCommunicator.m */; };
+		DD818E821BEBD4060094FA32 /* StackOverflowCommunicator.m in Sources */ = {isa = PBXBuildFile; fileRef = DD818E801BEBD4060094FA32 /* StackOverflowCommunicator.m */; };
 		DDC840F91B559532002E49B8 /* QuestionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDC840F81B559532002E49B8 /* QuestionTests.swift */; };
 		DDC840FB1B559599002E49B8 /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDC840FA1B559599002E49B8 /* Question.swift */; };
 		DDC840FC1B55959D002E49B8 /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDC840FA1B559599002E49B8 /* Question.swift */; };
@@ -65,6 +72,17 @@
 		9CF281481B5457BF006C0683 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9CF281561B5458D9006C0683 /* TopicTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TopicTests.swift; sourceTree = "<group>"; };
 		9CF281581B545944006C0683 /* Topic.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Topic.swift; sourceTree = "<group>"; };
+		DD818E6E1BEBCB370094FA32 /* BrowseOverflowTests-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BrowseOverflowTests-Bridging-Header.h"; sourceTree = "<group>"; };
+		DD818E6F1BEBCB370094FA32 /* QuestionCreationTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QuestionCreationTests.m; sourceTree = "<group>"; };
+		DD818E711BEBCC680094FA32 /* BrowseOverflow-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BrowseOverflow-Bridging-Header.h"; sourceTree = "<group>"; };
+		DD818E721BEBCC690094FA32 /* StackOverflowManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StackOverflowManager.h; sourceTree = "<group>"; };
+		DD818E731BEBCC690094FA32 /* StackOverflowManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StackOverflowManager.m; sourceTree = "<group>"; };
+		DD818E771BEBCD510094FA32 /* MockStackOverflowManagerDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MockStackOverflowManagerDelegate.h; sourceTree = "<group>"; };
+		DD818E781BEBCD510094FA32 /* MockStackOverflowManagerDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MockStackOverflowManagerDelegate.m; sourceTree = "<group>"; };
+		DD818E7C1BEBD3F80094FA32 /* MockStackOverflowCommunicator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MockStackOverflowCommunicator.h; sourceTree = "<group>"; };
+		DD818E7D1BEBD3F80094FA32 /* MockStackOverflowCommunicator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MockStackOverflowCommunicator.m; sourceTree = "<group>"; };
+		DD818E7F1BEBD4060094FA32 /* StackOverflowCommunicator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StackOverflowCommunicator.h; sourceTree = "<group>"; };
+		DD818E801BEBD4060094FA32 /* StackOverflowCommunicator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StackOverflowCommunicator.m; sourceTree = "<group>"; };
 		DDC840F81B559532002E49B8 /* QuestionTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuestionTests.swift; sourceTree = "<group>"; };
 		DDC840FA1B559599002E49B8 /* Question.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
 		DDC840FD1B5598CF002E49B8 /* PersonTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PersonTests.swift; sourceTree = "<group>"; };
@@ -124,15 +142,14 @@
 				9CF281211B5457BF006C0683 /* AppDelegate.swift */,
 				9CF281261B5457BF006C0683 /* MasterViewController.swift */,
 				9CF281281B5457BF006C0683 /* DetailViewController.swift */,
-				9CF281581B545944006C0683 /* Topic.swift */,
-				DDC840FA1B559599002E49B8 /* Question.swift */,
-				DDC840FF1B55998B002E49B8 /* Person.swift */,
-				DDC841041B55B6D7002E49B8 /* Answer.swift */,
+				DD818E761BEBCC770094FA32 /* Application Logic */,
+				DD8B73AC1BE2818500386ED9 /* Data Objects */,
 				9CF2812A1B5457BF006C0683 /* Main.storyboard */,
 				9CF2812D1B5457BF006C0683 /* Assets.xcassets */,
 				9CF2812F1B5457BF006C0683 /* LaunchScreen.storyboard */,
 				9CF281321B5457BF006C0683 /* Info.plist */,
 				9CF281231B5457BF006C0683 /* BrowseOverflow.xcdatamodeld */,
+				DD818E711BEBCC680094FA32 /* BrowseOverflow-Bridging-Header.h */,
 			);
 			path = BrowseOverflow;
 			sourceTree = "<group>";
@@ -141,11 +158,10 @@
 			isa = PBXGroup;
 			children = (
 				9CF2813B1B5457BF006C0683 /* BrowseOverflowTests.swift */,
-				DDC840FD1B5598CF002E49B8 /* PersonTests.swift */,
-				9CF281561B5458D9006C0683 /* TopicTests.swift */,
-				DDC841021B55B310002E49B8 /* AnswerTests.swift */,
-				DDC840F81B559532002E49B8 /* QuestionTests.swift */,
+				DD8B73AD1BE2820600386ED9 /* Data Object tests */,
 				9CF2813D1B5457BF006C0683 /* Info.plist */,
+				DD818E7B1BEBD3C40094FA32 /* Application Logic Tests */,
+				DD818E6E1BEBCB370094FA32 /* BrowseOverflowTests-Bridging-Header.h */,
 			);
 			path = BrowseOverflowTests;
 			sourceTree = "<group>";
@@ -157,6 +173,51 @@
 				9CF281481B5457BF006C0683 /* Info.plist */,
 			);
 			path = BrowseOverflowUITests;
+			sourceTree = "<group>";
+		};
+		DD818E761BEBCC770094FA32 /* Application Logic */ = {
+			isa = PBXGroup;
+			children = (
+				DD818E721BEBCC690094FA32 /* StackOverflowManager.h */,
+				DD818E731BEBCC690094FA32 /* StackOverflowManager.m */,
+				DD818E7F1BEBD4060094FA32 /* StackOverflowCommunicator.h */,
+				DD818E801BEBD4060094FA32 /* StackOverflowCommunicator.m */,
+			);
+			name = "Application Logic";
+			sourceTree = "<group>";
+		};
+		DD818E7B1BEBD3C40094FA32 /* Application Logic Tests */ = {
+			isa = PBXGroup;
+			children = (
+				DD818E771BEBCD510094FA32 /* MockStackOverflowManagerDelegate.h */,
+				DD818E781BEBCD510094FA32 /* MockStackOverflowManagerDelegate.m */,
+				DD818E7C1BEBD3F80094FA32 /* MockStackOverflowCommunicator.h */,
+				DD818E7D1BEBD3F80094FA32 /* MockStackOverflowCommunicator.m */,
+				DD818E6F1BEBCB370094FA32 /* QuestionCreationTests.m */,
+			);
+			name = "Application Logic Tests";
+			sourceTree = "<group>";
+		};
+		DD8B73AC1BE2818500386ED9 /* Data Objects */ = {
+			isa = PBXGroup;
+			children = (
+				9CF281581B545944006C0683 /* Topic.swift */,
+				DDC840FA1B559599002E49B8 /* Question.swift */,
+				DDC840FF1B55998B002E49B8 /* Person.swift */,
+				DDC841041B55B6D7002E49B8 /* Answer.swift */,
+			);
+			name = "Data Objects";
+			sourceTree = "<group>";
+		};
+		DD8B73AD1BE2820600386ED9 /* Data Object tests */ = {
+			isa = PBXGroup;
+			children = (
+				DDC840FD1B5598CF002E49B8 /* PersonTests.swift */,
+				9CF281561B5458D9006C0683 /* TopicTests.swift */,
+				DDC841021B55B310002E49B8 /* AnswerTests.swift */,
+				DDC840F81B559532002E49B8 /* QuestionTests.swift */,
+			);
+			name = "Data Object tests";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -221,6 +282,7 @@
 		9CF281161B5457BF006C0683 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 0710;
 				LastUpgradeCheck = 0700;
 				ORGANIZATIONNAME = "Giant Robot Pilot";
 				TargetAttributes = {
@@ -292,10 +354,12 @@
 				9CF281221B5457BF006C0683 /* AppDelegate.swift in Sources */,
 				9CF281591B545944006C0683 /* Topic.swift in Sources */,
 				9CF281251B5457BF006C0683 /* BrowseOverflow.xcdatamodeld in Sources */,
+				DD818E811BEBD4060094FA32 /* StackOverflowCommunicator.m in Sources */,
 				DDC840FB1B559599002E49B8 /* Question.swift in Sources */,
 				DDC841001B55998B002E49B8 /* Person.swift in Sources */,
 				9CF281271B5457BF006C0683 /* MasterViewController.swift in Sources */,
 				9CF281291B5457BF006C0683 /* DetailViewController.swift in Sources */,
+				DD818E741BEBCC690094FA32 /* StackOverflowManager.m in Sources */,
 				DDC841051B55B6D7002E49B8 /* Answer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -304,15 +368,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DD818E701BEBCB370094FA32 /* QuestionCreationTests.m in Sources */,
 				DDC840FC1B55959D002E49B8 /* Question.swift in Sources */,
 				9CF2813C1B5457BF006C0683 /* BrowseOverflowTests.swift in Sources */,
+				DD818E7E1BEBD3F80094FA32 /* MockStackOverflowCommunicator.m in Sources */,
 				DDC840F91B559532002E49B8 /* QuestionTests.swift in Sources */,
 				DDC841061B55B6D7002E49B8 /* Answer.swift in Sources */,
 				9CF2815A1B545944006C0683 /* Topic.swift in Sources */,
+				DD818E821BEBD4060094FA32 /* StackOverflowCommunicator.m in Sources */,
 				DDC841011B55998B002E49B8 /* Person.swift in Sources */,
 				DDC840FE1B5598CF002E49B8 /* PersonTests.swift in Sources */,
 				9CF281571B5458D9006C0683 /* TopicTests.swift in Sources */,
+				DD818E751BEBCC690094FA32 /* StackOverflowManager.m in Sources */,
 				DDC841031B55B310002E49B8 /* AnswerTests.swift in Sources */,
+				DD818E791BEBCD510094FA32 /* MockStackOverflowManagerDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -444,11 +513,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = BrowseOverflow/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.giantrobotpilot.BrowseOverflow;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "BrowseOverflow/BrowseOverflow-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -456,11 +528,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = BrowseOverflow/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.giantrobotpilot.BrowseOverflow;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "BrowseOverflow/BrowseOverflow-Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -468,10 +542,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = BrowseOverflowTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.giantrobotpilot.BrowseOverflowTests;
+				PRODUCT_MODULE_NAME = BrowseOverflow;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "BrowseOverflowTests/BrowseOverflowTests-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BrowseOverflow.app/BrowseOverflow";
 			};
 			name = Debug;
@@ -480,10 +558,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = BrowseOverflowTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.giantrobotpilot.BrowseOverflowTests;
+				PRODUCT_MODULE_NAME = BrowseOverflow;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "BrowseOverflowTests/BrowseOverflowTests-Bridging-Header.h";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BrowseOverflow.app/BrowseOverflow";
 			};
 			name = Release;
