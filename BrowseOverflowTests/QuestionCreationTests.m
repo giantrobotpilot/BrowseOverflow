@@ -51,4 +51,25 @@
     XCTAssertTrue([communicator wasAskedToFetchQuestions]);
 }
 
+- (void)testErrorReturnedToDelegateIsNotErrorNotifiedByCommunicator {
+    MockStackOverflowManagerDelegate *delegate = [[MockStackOverflowManagerDelegate alloc] init];
+    self.mgr.delegate = delegate;
+    NSError *underlyingError = [NSError errorWithDomain:@"Test domain"
+                                                   code:0
+                                               userInfo:nil];
+    [self.mgr searchingForQuestionsFailedWithError:underlyingError];
+    XCTAssertFalse(underlyingError == [delegate fetchError], @"Error should return the correct level of abstraction");
+}
+
+- (void)testErrorReturnedToDelegateDocumentsUnderlyingError {
+    MockStackOverflowManagerDelegate *delegate = [[MockStackOverflowManagerDelegate alloc] init];
+    self.mgr.delegate = delegate;
+    NSError *underlyingError = [NSError errorWithDomain:@"Test domain"
+                                                   code:0
+                                               userInfo:nil];
+    [self.mgr searchingForQuestionsFailedWithError:underlyingError];
+    NSError *fetchedError = [[[delegate fetchError] userInfo] objectForKey:NSUnderlyingErrorKey
+    XCTAssertEqualObjects(fetchedError, underlyingError, @"The underlying error should be available to client code");
+}
+
 @end

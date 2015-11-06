@@ -28,4 +28,15 @@
     [self.communicator searchForQuestionsWithTag:[topic tag]];
 }
 
+- (void)searchingForQuestionsFailedWithError:(NSError *)error {
+    NSDictionary *errorInfo = @{ NSUnderlyingErrorKey : error };
+    NSError *reportableError = [NSError errorWithDomain:StackOverflowManagerSearchFailedError
+                                                   code:StackOverflowManagerErrorQuestionSearchCode
+                                               userInfo:errorInfo];
+    [self.delegate fetchingQuestionsOnTopic:nil
+                            failedWithError:reportableError];
+}
+
 @end
+
+NSString *StackOverflowManagerError = @"StackOverflowManagerError";
